@@ -1,6 +1,6 @@
 # CE-Plant-Monitor
 🌳Plant monitor
-The project is a plant monitor designed to monitor the plant's environment and collect relevant data.
+>The project is a plant monitor designed to monitor the plant's environment and collect relevant data.
 
 ## Function
 - Real-time monitoring of plant temperature and humidity and moisture.
