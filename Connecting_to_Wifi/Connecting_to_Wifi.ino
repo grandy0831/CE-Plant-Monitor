@@ -26,8 +26,11 @@ void setup() {
   Serial.println(WiFi.localIP());  // Print the local IP address
 }
 
+int value = 0;
+
 void loop() {
   delay(5000);  // 5 second delay
+  ++value;
 
   Serial.println("-------------------------------");  // Indicates that a connection attempt is in progress
   Serial.print("Connecting to ");  // Indicates that a connection attempt is in progress
