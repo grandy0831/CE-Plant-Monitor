@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h> // The ESP8266 Wi-Fi library is introduced，I can use the functions and methods in it to connect to a Wi-Fi network
 
-const char* ssid     = "WIFINAME";  // Replace with the name of my Wi-Fi network
-const char* password = "WIFIPASSWORD";  // Replace it with my Wi-Fi password
+const char* ssid     = "Glide-US-Resident";  // Replace with the name of my Wi-Fi network
+const char* password = "PrizeImageErupt";  // Replace it with my Wi-Fi password
 const char* host = "iot.io";  // Declare the Web host to connect to，specifies the address of the Web host to connect to
 
 void setup() {
@@ -26,11 +26,8 @@ void setup() {
   Serial.println(WiFi.localIP());  // Print the local IP address
 }
 
-int value = 0;
-
 void loop() {
   delay(5000);  // 5 second delay
-  ++value;
 
   Serial.println("-------------------------------");  // Indicates that a connection attempt is in progress
   Serial.print("Connecting to ");  // Indicates that a connection attempt is in progress
