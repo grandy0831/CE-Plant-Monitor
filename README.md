@@ -18,16 +18,27 @@
 - [Raspberry Pi](https://www.raspberrypi.com/software/)
 - [MQTT Explorer](https://mqtt-explorer.com/)
 
-### Setup steps
+### Setup Steps
+
 #### 1. **Feather Set-up**
+
 ##### Add Feather Huzzah ESP8266 to the board manager of the [Arduino IDE](https://www.arduino.cc/en/software)
+
 1. Open the Arduino IDE.
-2. Go to "File" -&gt; Preferences.
-3. Add the following URL to the "additional development board manager URLs: https://arduino.esp8266.com/stable/package_esp8266com_index.json
-4. After confirmation, go to "Tools" -&gt; "Development Board" -&gt; "Development Board Manager".
-5. In the search box, enter ESP8266.
-6. Install esp8266 by ESP8266 Community.
-7. Select Feather Huzzah ESP8266 board.
+2. Go to "File" -> "Preferences".
+3. Add the following URL to the "additional development board manager URLs": `https://arduino.esp8266.com/stable/package_esp8266com_index.json`
+4. After confirmation, go to "Tools" -> "Development Board" -> "Development Board Manager".
+5. In the search box, enter `ESP8266`.
+6. Install `esp8266 by ESP8266 Community`.
+7. Select `Feather Huzzah ESP8266` board.
+
+##### Upload code to Feather Huzzah ESP8266
+
+1. Connect the Feather Huzzah ESP8266 to your computer via USB.
+2. Select the correct port and development board.
+3. Open a sample code, such as "Blink".
+4. Click "Upload" to upload the code to Feather Huzzah ESP8266.
+
    
 2. **Connecting to Wifi**
 3. **Getting the time**
