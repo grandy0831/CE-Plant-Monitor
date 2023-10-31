@@ -45,7 +45,7 @@ Once you can get the blink example working, jump to the next step.
 <br>
 #### 2. **Connecting to Wifi**
 
-  The Feather Huzzah ESP8266 is equipped with Wi-Fi capabilities. 
+  The Feather Huzzah ESP8266 is equipped with Wi-Fi capabilities. <br>
   A complete working example of the code above is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/blob/main/Connecting_to_Wifi/Connecting_to_Wifi.ino).
 
 
