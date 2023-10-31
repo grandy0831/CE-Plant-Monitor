@@ -79,6 +79,8 @@ A complete working example of the code  is [available here on GitHub](https://gi
 <br>
   
 #### 6. **Generate an HTML page**
+A complete working example of the code  is [available here on GitHub]
+
 #### 7. **Sending Soil Data to MQTT**
 #### 8. **Setting up a RPi as a gateway**
 #### 9. **Installing InfluxDB on RPi**
