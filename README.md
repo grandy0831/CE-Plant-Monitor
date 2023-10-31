@@ -20,7 +20,7 @@
 
 ### Setup Steps
 
-
+<br/>
 #### 1. **Feather Set-up**
 
 ##### Add Feather Huzzah ESP8266 to the board manager of the [Arduino IDE](https://www.arduino.cc/en/software)
