@@ -79,9 +79,9 @@ A complete working example of the code  is [available here on GitHub](https://gi
 <br>
   
 #### 6. **Generate an HTML page**
-A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/Generate_an_HTML_page).<br>
+A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/Generate_an_HTML_page).<br><br>
 ![截屏2023-10-31 02 49 22](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/3ec945c3-5ed2-47fb-ab6b-13050adc3c08)<br><br>
-You can also change the style to create the table yourself.![截屏2023-10-31 03 18 43](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/d84293a6-5bc0-4d3b-9eb4-416884665958).
+You can also change the style to create the table yourself.<br><br>![截屏2023-10-31 03 18 43](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/d84293a6-5bc0-4d3b-9eb4-416884665958).
 <br>
 <br>
 
