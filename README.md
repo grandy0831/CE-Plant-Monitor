@@ -12,7 +12,7 @@
 
 ## Installation
 ### Materials required
-- [Arduino IDE](https://www.arduino.cc/en/software)
+- <a href="https://www.arduino.cc/en/software" target="_blank">Arduino IDE</a>
 - Feather Huzzah ESP8266
 - DHT22
 - Raspberry Pi
