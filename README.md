@@ -20,6 +20,7 @@
 
 ### Setup Steps
 
+
 #### 1. **Feather Set-up**
 
 ##### Add Feather Huzzah ESP8266 to the board manager of the [Arduino IDE](https://www.arduino.cc/en/software)
@@ -41,10 +42,13 @@
   4. Click "Upload" to upload the code to Feather Huzzah ESP8266.
 
 Once you can get the blink example working, jump to the next step.
+
+
    
 #### 2. **Connecting to Wifi**
 
 The Feather Huzzah ESP8266 is equipped with Wi-Fi capabilities. 
+
 
 
 #### 3. **Getting the time**
