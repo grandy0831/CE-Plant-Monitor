@@ -19,10 +19,20 @@ ESP8266WebServer server(80);  // Create a network server instance that listens o
 
 Timezone GB;  // Create a time zone object
 
+uint8_t soilPin = A0;   // The soil moisture sensor pin
+int Moisture_val;       // Variable to store the moisture value read from the sensor
+
+int sensorVCC = 13;    // Power pin for the sensor
+int counter = 0;        // Counter to measure the soil pin resistance
+
 void setup() {
   // open serial connection
   Serial.begin(115200);
   delay(100);
+
+  // Start mositure sensor
+  pinMode(sensorVCC, OUTPUT);
+  digitalWrite(sensorVCC, LOW);  // Set the sensor power pin (sensorVCC) to output mode and set its level to low
 
   // start DHT sensor
   pinMode(DHTPin, INPUT);
@@ -59,6 +69,19 @@ void setup() {
 }
 
 void loop() {
+  counter++;
+  if(counter> 6){      // change this value to set "not powered" time. higher number bigger gap
+    // power the sensor
+    digitalWrite(sensorVCC, HIGH);
+    delay(1000);
+    // read the value from the sensor:
+    Moisture_val = analogRead(soilPin);   // read the resistance      
+    //stop power
+    digitalWrite(sensorVCC, LOW);  
+    delay(100);
+    counter=0;    
+  }  
+
   server.handleClient();  // Processing requests from clients
   
   //delay(1000);
@@ -70,7 +93,7 @@ void loop() {
 void handle_OnConnect() {
   Temperature = dht.readTemperature(); // Gets the values of the temperature
   Humidity = dht.readHumidity(); // Gets the values of the humidity 
-  server.send(200, "text/html", SendHTML(Temperature,Humidity)); 
+  server.send(200, "text/html", SendHTML(Temperature,Humidity,Moisture_val)); 
 }
 
 void handle_NotFound(){
@@ -80,7 +103,7 @@ void handle_NotFound(){
 
 // Build a simple HTML page 
 // Displays the temperature and humidity values detected by the DHT22 sensor
-String SendHTML(float Temperaturestat,float Humiditystat){
+String SendHTML(float Temperaturestat,float Humiditystat, int Moisturestat){
   String ptr = "<!DOCTYPE html> <html>\n";  // Defines the basic structure of an HTML file, declares the document type and the HTML tag start
   ptr +="<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";  // Set the viewport and zoom of the page displayed on the device
   ptr +="<title>Plant Monitor Report</title>\n";  // Set page title
@@ -88,8 +111,8 @@ String SendHTML(float Temperaturestat,float Humiditystat){
   ptr +="body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;}\n";  // Set the style of the title
   ptr +="p {font-size: 24px;color: #444444;margin-bottom: 10px;}\n";  // Sets the style of the paragraph
   ptr +="</style>\n";
-  ptr +="</head>\n";
   ptr += "<script>setTimeout(function() { location.reload(); }, 1000);</script>\n"; // Refresh the page periodically
+  ptr +="</head>\n";
   ptr +="<body>\n";
   ptr +="<div id=\"webpage\">\n";
   ptr +="<h1>Plant Monitor Report</h1>\n";  // The main title of the page
@@ -100,6 +123,9 @@ String SendHTML(float Temperaturestat,float Humiditystat){
   ptr +="<p>Humidity: ";
   ptr +=(int)Humiditystat;
   ptr +="%</p>";
+  ptr += "<p>Soil Moisture: ";
+  ptr += Moisturestat;
+  ptr += "</p>";
   ptr +="<p>Sampled on: ";
   ptr +=GB.dateTime("l,");
   ptr +="<br>";
