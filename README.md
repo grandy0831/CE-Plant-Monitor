@@ -13,7 +13,7 @@
 ## Installation
 ### Materials required
 - [Arduino IDE](https://www.arduino.cc/en/software)
-- Feather Huzzah ESP8266
+- [Feather Huzzah ESP8266](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/overview)
 - DHT22
-- Raspberry Pi
+- [Raspberry Pi](https://www.raspberrypi.com/software/)
 - [MQTT Explorer](https://mqtt-explorer.com/)
