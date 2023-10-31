@@ -42,13 +42,13 @@
 
 Once you can get the blink example working, jump to the next step.
    
-2. **Connecting to Wifi**
-3. **Getting the time**
-4. **Publish data to an MQTT server**
-5. **Moisture sensing**
-6. **Sending Soil Data to MQTT**
-7. **Setting up a RPi as a gateway**
-8. **Installing InfluxDB on RPi**
-9. **Installing Telegraf on RPi**
-10. **Installing Grafana**
-11. **Visualising Data on Grafana**
+#### 2. **Connecting to Wifi**
+#### 3. **Getting the time**
+#### 4. **Publish data to an MQTT server**
+#### 5. **Moisture sensing**
+#### 6. **Sending Soil Data to MQTT**
+#### 7. **Setting up a RPi as a gateway**
+#### 8. **Installing InfluxDB on RPi**
+#### 9. **Installing Telegraf on RPi**
+#### 10. **Installing Grafana**
+#### 11. **Visualising Data on Grafana**
