@@ -98,7 +98,9 @@ The data should now flow from the Huzzah plant monitor to the MQTT web server an
 #### 8. **Setting up a RPi as a gateway**
 
 In this step, we configured the Raspberry PI as a data gateway to collect and process data from the plant monitor.<br><br>
-[This page](https://www.raspberrypi.com/software/) can help you set up your Raspberry PI.
+[This page](https://www.raspberrypi.com/software/) can help you set up your Raspberry PI.<br><br>
+
+<img width="792" alt="7195b6768554ba3c" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/9222f89c-151b-49be-bb6f-61326d923331">
 
 
 
