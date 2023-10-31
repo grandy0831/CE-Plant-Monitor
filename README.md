@@ -38,7 +38,7 @@
 2. Select the correct port and development board.
 3. Open a sample code, such as "Blink".
 4. Click "Upload" to upload the code to Feather Huzzah ESP8266.
-
+>Once you can get the blink example working, jump to the next step.
    
 2. **Connecting to Wifi**
 3. **Getting the time**
