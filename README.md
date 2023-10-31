@@ -9,3 +9,11 @@
 - Data can be transmitted through MQTT protocol.
 - Stores data on the RPi gateway.
 - Visualize time series data.
+
+## Installation
+### Materials required
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- Feather Huzzah ESP8266
+- DHT22
+- Raspberry Pi
+- MQTT Explorer
