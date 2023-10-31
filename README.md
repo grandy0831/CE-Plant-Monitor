@@ -12,8 +12,8 @@
 
 ## Installation
 ### Materials required
-- <a href="https://www.arduino.cc/en/software" target="_blank">Arduino IDE</a>
+- [Arduino IDE](https://www.arduino.cc/en/software)
 - Feather Huzzah ESP8266
 - DHT22
 - Raspberry Pi
-- MQTT Explorer
+- [MQTT Explorer](https://mqtt-explorer.com/)
