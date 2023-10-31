@@ -95,11 +95,13 @@ The data should now flow from the Huzzah plant monitor to the MQTT web server an
 ![截屏2023-10-31 03 11 24](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/6f44aa5b-a94d-4f6b-b73c-918c02cf3481)<br><br>
 
 
-
-
-
-
 #### 8. **Setting up a RPi as a gateway**
+
+In this step, we configured the Raspberry PI as a data gateway to collect and process data from the plant monitor.<br><br>
+[This page](https://www.raspberrypi.com/software/) can help you set up your Raspberry PI.
+
+
+
 #### 9. **Installing InfluxDB on RPi**
 #### 10. **Installing Telegraf on RPi**
 #### 11. **Installing Grafana**
