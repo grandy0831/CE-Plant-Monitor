@@ -74,10 +74,7 @@ Once you can get the blink example working, jump to the next step.
 <br> <br> 
 The Fritzing diagram below shows the circuit for connecting a soil sensor using 2 nails and a DHT22 sensor.<img width="1076" alt="e38e251e2e837937" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/28a1031e-ee9c-40a5-95b1-d36f85851975"><img width="1201" alt="14e0883730a7e435" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/d1f01d2b-432b-4da2-b99b-bcc1dbd9dc49">![dfb2411573027bfe](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/59cebb80-8e7a-4c2b-a6ed-c26a9797834f)<br>
 To test the soil sensor build the circuit <br><br>
-A complete working example of the code  is [available here on GitHub]
-
-
-
+A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/Moisture_sensing)<br><br>
 
   
 #### 6. **Sending Soil Data to MQTT**
