@@ -46,20 +46,26 @@ Once you can get the blink example working, jump to the next step.
 #### 2. **Connecting to Wifi**
 
   The Feather Huzzah ESP8266 is equipped with Wi-Fi capabilities. <br>
-  A complete working example of the code above is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/blob/main/Connecting_to_Wifi/Connecting_to_Wifi.ino).
+  A complete working example of the code is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/blob/main/Connecting_to_Wifi/Connecting_to_Wifi.ino).
 <br>
 <br>
 
 #### 3. **Getting the time**
 
   In this step, you will learn to get time from the Internet, which is very important for subsequent data acquisition and recording.<br>
-  A complete working example of the code above is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/blob/main/Getting_the_time/Getting_the_time.ino)<br>
+  A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/blob/main/Getting_the_time/Getting_the_time.ino)<br>
   <img width="890" alt="Getting_the_time_monitor_output" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/9de2e704-bc97-4302-9831-8ab660412a97"><br>
 monitor output of getting the time 
 <br>
 <br> 
 
 #### 4. **Publish data to an MQTT server**
+  We will be sending data to a MQTT server.
+ A complete working example of the code  is [available here on GitHub]
+ 
+<br>
+<br> 
+ 
 #### 5. **Moisture sensing**
 #### 6. **Sending Soil Data to MQTT**
 #### 7. **Setting up a RPi as a gateway**
