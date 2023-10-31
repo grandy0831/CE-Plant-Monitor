@@ -43,6 +43,10 @@
 Once you can get the blink example working, jump to the next step.
    
 #### 2. **Connecting to Wifi**
+
+The Feather Huzzah ESP8266 is equipped with Wi-Fi capabilities. 
+
+
 #### 3. **Getting the time**
 #### 4. **Publish data to an MQTT server**
 #### 5. **Moisture sensing**
