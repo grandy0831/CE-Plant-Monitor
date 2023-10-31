@@ -83,12 +83,13 @@ void handle_NotFound(){
 String SendHTML(float Temperaturestat,float Humiditystat){
   String ptr = "<!DOCTYPE html> <html>\n";  // Defines the basic structure of an HTML file, declares the document type and the HTML tag start
   ptr +="<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";  // Set the viewport and zoom of the page displayed on the device
-  ptr +="<title>ESP8266 DHT22 Report</title>\n";  // Set page title
+  ptr +="<title>Plant Monitor Report</title>\n";  // Set page title
   ptr +="<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}\n";  // Using the Style Object
   ptr +="body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;}\n";  // Set the style of the title
   ptr +="p {font-size: 24px;color: #444444;margin-bottom: 10px;}\n";  // Sets the style of the paragraph
   ptr +="</style>\n";
   ptr +="</head>\n";
+  ptr += "<script>setTimeout(function() { location.reload(); }, 1000);</script>\n"; // Refresh the page periodically
   ptr +="<body>\n";
   ptr +="<div id=\"webpage\">\n";
   ptr +="<h1>Plant Monitor Report</h1>\n";  // The main title of the page
