@@ -69,9 +69,9 @@ Once you can get the blink example working, jump to the next step.
 #### 5. **Moisture sensing**
 
   The sensor of the plant monitor is based on two parts - a DHT22 temperature/humidity sensor and a pair of nails. While the former exists in convenient, accurate, and packaged form, the latter requires a lot more creativity and tinkering to make it work. We'll start by creating a soil sensor.
-<br> 
+<br> <br> 
   The basic principle is to measure the soil resistance between two nails that are separated by a distance. The higher the water content in the soil, the lower the electrical resistance. There are many challenges with nails, from electrolysis to determining the meaning of the simulated reading (It depends on nail length, soil depth, soil type, distance between nails, etc.).
-<br> 
+<br> <br> 
 The Fritzing diagram below shows the circuit for connecting a soil sensor using 2 nails and a DHT22 sensor.<img width="1076" alt="e38e251e2e837937" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/28a1031e-ee9c-40a5-95b1-d36f85851975"><img width="1201" alt="14e0883730a7e435" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/d1f01d2b-432b-4da2-b99b-bcc1dbd9dc49">![dfb2411573027bfe](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/59cebb80-8e7a-4c2b-a6ed-c26a9797834f)<br>
 To test the soil sensor build the circuit 
 
