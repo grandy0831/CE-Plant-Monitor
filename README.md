@@ -1,4 +1,4 @@
-# CE-Plant-Monitor
+# Plant-Monitor
 🌳Plant monitor
 >The project is a plant monitor designed to monitor the plant's environment and collect relevant data.
 
