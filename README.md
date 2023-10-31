@@ -48,8 +48,13 @@ Once you can get the blink example working, jump to the next step.
   The Feather Huzzah ESP8266 is equipped with Wi-Fi capabilities. <br>
   A complete working example of the code above is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/blob/main/Connecting_to_Wifi/Connecting_to_Wifi.ino).
 <br>
+<br>
 
 #### 3. **Getting the time**
+
+  In this step, you will learn to get time from the Internet, which is very important for subsequent data acquisition and recording.<br>
+  
+  
 #### 4. **Publish data to an MQTT server**
 #### 5. **Moisture sensing**
 #### 6. **Sending Soil Data to MQTT**
