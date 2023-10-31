@@ -1,6 +1,6 @@
 # 🌳 Plant-Monitor
 
-##Overview
+## Overview
 >The project is a plant monitor designed to monitor the plant's environment such as soil moisture of plants, while using Feather Huzzah ESP8266 Wi-Fi connection and MQTT server to publish sensor data, and using RPi gateway to store and visualize time series data.
 
 ## Function
