@@ -171,7 +171,7 @@ void sendMQTT() {
   Serial.println(msg);
   client.publish("student/CASA0014/plant/zczqgch/humidity", msg);  // Publish humidity data
 
-  Moisture = analogRead(soilPin);   // Read moisture from readMoisture function
+  //Moisture = analogRead(soilPin);   // Read moisture from readMoisture function
   snprintf (msg, 50, "%.0i", Moisture);  // Format the message
   Serial.print("Publish message for m: ");
   Serial.println(msg);
@@ -246,34 +246,38 @@ void handle_NotFound() {
 }
 
 // Generate the HTML content with the temperature, humidity, and moisture values
-String SendHTML(float Temperaturestat,float Humiditystat, int Moisturestat){
-  String ptr = "<!DOCTYPE html> <html>\n";  // Defines the basic structure of an HTML file, declares the document type and the HTML tag start
-  ptr += "<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";  // Set the viewport and zoom of the page displayed on the device
-  ptr += "<title>Plant Monitor Report</title>\n";  // Set page title
-  ptr += "<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}\n";  // Using the Style Object
-  ptr += "body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;}\n";  // Set the style of the title
-  ptr += "p {font-size: 24px;color: #444444;margin-bottom: 10px;}\n";  // Sets the style of the paragraph
+String SendHTML(float Temperaturestat, float Humiditystat, int Moisturestat) {
+  String ptr = "<!DOCTYPE html> <html>\n";
+  ptr += "<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";
+  ptr += "<title>Plant Monitor Report</title>\n";
+  ptr += "<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}\n";
+  ptr += "body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;}\n";
+  ptr += "table {border-collapse: collapse; width: 50%; margin: 0 auto;}\n";
+  ptr += "th, td {border: 1px solid #dddddd; text-align: left; padding: 8px;}\n";
+  ptr += "th {background-color: #f2f2f2;}\n";
+  ptr += "td {background-color: #ffffff;}\n";
   ptr += "</style>\n";
-  ptr += "<script>setTimeout(function() { location.reload(); }, 1000);</script>\n"; // Refresh the page periodically
+  ptr += "<script>setTimeout(function() { location.reload(); }, 1000);</script>\n";
   ptr += "</head>\n";
   ptr += "<body>\n";
   ptr += "<div id=\"webpage\">\n";
-  ptr += "<h1>Plant Monitor Report</h1>\n";  // The main title of the page
+  ptr += "<h1>Plant Monitor Report</h1>\n";
 
-  ptr += "<p>Temperature: ";
+  ptr += "<table>\n";
+  ptr += "<tr><th>Measurement</th><th>Value</th></tr>";
+  ptr += "<tr><td>Temperature</td><td>";
   ptr += (int)Temperaturestat;
-  ptr += " C</p>";
-  ptr += "<p>Humidity: ";
+  ptr += "&deg;C</td></tr>";
+  ptr += "<tr><td>Humidity</td><td>";
   ptr += (int)Humiditystat;
-  ptr += "%</p>";
-  ptr += "<p>Moisture: ";
-  ptr += Moisturestat;
-  ptr += "</p>";
-  ptr += "<p>Sampled on: ";
-  ptr += GB.dateTime("l,");
-  ptr += "<br>";
-  ptr += GB.dateTime("d-M-y H:i:s T");
-  ptr += "</p>";
+  ptr += "%</td></tr>";
+  ptr += "<tr><td>Moisture</td><td>";
+  ptr += String(Moisturestat);
+  ptr += "</td></tr>";
+  ptr += "<tr><td>Sampled on</td><td>";
+  ptr += GB.dateTime("l, d-M-y H:i:s T");
+  ptr += "</td></tr>";
+  ptr += "</table>\n";
 
   ptr += "</div>\n";
   ptr += "</body>\n";
