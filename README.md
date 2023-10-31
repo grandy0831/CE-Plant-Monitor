@@ -17,3 +17,6 @@
 - DHT22
 - [Raspberry Pi](https://www.raspberrypi.com/software/)
 - [MQTT Explorer](https://mqtt-explorer.com/)
+
+### Setup steps
+1. **Feather Set-up**
