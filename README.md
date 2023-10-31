@@ -42,8 +42,8 @@
   4. Click "Upload" to upload the code to Feather Huzzah ESP8266.
 
 Once you can get the blink example working, jump to the next step.
-
-
+<br/>
+<br/>
    
 #### 2. **Connecting to Wifi**
 
