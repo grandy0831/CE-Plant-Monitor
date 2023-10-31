@@ -45,8 +45,8 @@ Once you can get the blink example working, jump to the next step.
 <br>
 #### 2. **Connecting to Wifi**
 
-The Feather Huzzah ESP8266 is equipped with Wi-Fi capabilities. 
-
+  The Feather Huzzah ESP8266 is equipped with Wi-Fi capabilities. 
+  A complete working example of the code above is available here on GitHub.
 
 
 #### 3. **Getting the time**
