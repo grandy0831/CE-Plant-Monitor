@@ -54,14 +54,14 @@ Once you can get the blink example working, jump to the next step.
 
   In this step, you will learn to get time from the Internet, which is very important for subsequent data acquisition and recording.<br>
   A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/blob/main/Getting_the_time).<br>
-  <img width="890" alt="Getting_the_time_monitor_output" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/9de2e704-bc97-4302-9831-8ab660412a97"><br>
+  <img width="890" alt="Getting_the_time_monitor_output" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/9de2e704-bc97-4302-9831-8ab660412a97">
 <br>
 <br> 
 
 #### 4. **Publish data to an MQTT server**
   We will be sending data to a MQTT server.<br> 
  A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/Publish_data_to_an_MQTT_server).<br> 
- <img width="1020" alt="MQTT" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/29e8fe25-3ba4-4862-8ff9-8c36f5f30eb0"><br>
+ <img width="1020" alt="MQTT" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/29e8fe25-3ba4-4862-8ff9-8c36f5f30eb0">
 <br>
 <br> 
  
