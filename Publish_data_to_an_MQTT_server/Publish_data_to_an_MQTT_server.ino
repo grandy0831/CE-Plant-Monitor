@@ -112,7 +112,7 @@ void reconnect() {
     
     // Attempt to connect
     // If connection is successful
-    if (client.connect(clientId.c_str(), mqttuser, mqttpass)) {
+    if (client.connect(clientId.c_str(), SECRET_MQTTUSER, SECRET_MQTTPASS)) {
       Serial.println("connected");  // If connected is displayed on the serial port monitor, the connection is successful
       // ... and subscribe to messages on broker
       client.subscribe("student/CASA0014/plant/zczqgch/inTopic");
