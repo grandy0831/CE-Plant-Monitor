@@ -225,3 +225,5 @@ Your data is displayed on Grafana.
 ---
 >Now let's branch out and do some fun ideas, like create a plant pet based on our plant monitor.
 # Plantpets 🌱🐾
+>‼ ️ Important note: this is an unfinished concept project, I will try my best to complete this project, only part of the code can run at present, I am trying to implement the project.
+Welcome to the Plant Pet Project! This is a combination of plant monitor features to create a prototype of a fun plant pet. The project allows you to interact with your plants, monitor their status and provide care.
