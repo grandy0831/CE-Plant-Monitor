@@ -100,9 +100,10 @@ The data should now flow from the Huzzah plant monitor to the MQTT web server an
 In this step, we configured the Raspberry PI as a data gateway to collect and process data from the plant monitor.<br><br>
 [This page](https://www.raspberrypi.com/software/) can help you set up your Raspberry PI.<br><br>
 
-<img width="792" alt="7195b6768554ba3c" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/9222f89c-151b-49be-bb6f-61326d923331">
+<img width="792" alt="7195b6768554ba3c" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/9222f89c-151b-49be-bb6f-61326d923331"><br><br>
+On your Mac / PC open up a Terminal / Putty session and log into the device using SSH.
 
-
+    ssh pi@staff-pi-casa0014.local
 
 #### 9. **Installing InfluxDB on RPi**
 #### 10. **Installing Telegraf on RPi**
