@@ -116,8 +116,29 @@ Finally do a quick update / upgrade to make sure all files are upto date and the
 <br><br>
 
 #### 9. **Installing InfluxDB on RPi**
-InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/#influxdb).
+InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/#influxdb).We will use the Ubuntu & Debian (Arm 64-bit) option.
+<br><br>
+  1.Add the InfluxDB key to ensure secure download and the repository to the sources list so that we can download it in the next step.
+  
+    wget -q https://repos.influxdata.com/influxdata-archive_compat.key
+    echo '393e8779c89ac8d958f81f942f9ad7fb82a25e133faddaf92e15b16e6ac9ce4c influxdata-archive_compat.key' | sha256sum -c && cat influxdata-archive_compat.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/influxdata-archive_compat.gpg > /dev/null
+    echo 'deb [signed-by=/etc/apt/trusted.gpg.d/influxdata-archive_compat.gpg] https://repos.influxdata.com/debian stable main' | sudo tee /etc/apt/sources.list.d/influxdata.list
+  2.With the repository added we now run another update to the package list
+  
+    sudo apt-get update
+    
+ 3.Finally we install InfluxDB
 
+    sudo apt-get install influxdb2 -y
+
+ 4.Finally to get InfluxDB up and running at reboot we need to enable and start it within systemctl
+
+    sudo systemctl unmask influxdb.service
+    sudo systemctl start influxdb
+    sudo systemctl enable influxdb.service
+    sudo systemctl status influxdb
+
+  Use 'CTRL C' to break out of the systemctl command and get back to the terminal prompt.
 #### 10. **Installing Telegraf on RPi**
 #### 11. **Installing Grafana**
 #### 12. **Visualising Data on Grafana**
