@@ -164,6 +164,8 @@ InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/
     telegraf --config http://10.129.101.214:8086/api/v2/telegrafs/0a2093eea36cb000
 
 >You can `COPT TO CLIPBOARD `from `3.Start Telegraf`.
+![截屏2023-11-01 00 14 51](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/56ed9711-096f-4351-a5c6-0bb685bd4c13)<br><br>
+
 
 #### 11. **Installing Grafana**
 #### 12. **Visualising Data on Grafana**
