@@ -193,4 +193,17 @@ InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/
 
 
 #### 11. **Installing Grafana**
+In the final step we will install Grafana so that we can visualise the data in the InfluxDB. <br><br>
+ 1.Install:
+
+    sudo apt-get install -y adduser libfontconfig1 musl
+    wget https://dl.grafana.com/enterprise/release/grafana-enterprise_10.1.5_arm64.deb
+    sudo dpkg -i grafana-enterprise_10.1.5_arm64.deb
+
+ 2.add grafana to systemd and then to start the service:
+
+    sudo /bin/systemctl daemon-reload
+    sudo /bin/systemctl enable grafana-server
+    sudo /bin/systemctl start grafana-server
+
 #### 12. **Visualising Data on Grafana**
