@@ -252,9 +252,12 @@ A complete working example of the code  is [available here on GitHub](https://gi
 <img width="1320" alt="截屏2023-11-01 01 57 27" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/e9b544a2-3eb6-4d20-87cf-99dad26e6e55">
 <br><br>
 
-- **Sound feedback** : Plant pets make sounds to express needs or emotions.
-- **Interactive** : Users can give water or care to plant pets with a button or touch sensor.
-- **Automatic watering system** : Water plants automatically according to soil moisture sensor data.
-- **Data visualization** : Displays plant health, humidity, light and other data.
-- **Voice interaction** : Users can have voice interaction with plant pets and get relevant information.
-- **Remote Control** : Users can monitor and interact with plant pets remotely, no matter where they are.
+- **Sound feedback** : Plant pets make sounds to express needs or emotions.<br><br>
+Increase the interactivity and fun of plant pets while helping users better understand the state and needs of plants<br><br>
+>Use a buzzer or speaker<br><br>
+
+- **Interactive** : Users can give water or care to plant pets with a button or touch sensor.<br><br>
+- **Automatic watering system** : Water plants automatically according to soil moisture sensor data.<br><br>
+- **Data visualization** : Displays plant health, humidity, light and other data.<br><br>
+- **Voice interaction** : Users can have voice interaction with plant pets and get relevant information.<br><br>
+- **Remote Control** : Users can monitor and interact with plant pets remotely, no matter where they are.<br><br>
