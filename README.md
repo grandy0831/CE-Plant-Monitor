@@ -207,3 +207,14 @@ In the final step we will install Grafana so that we can visualise the data in t
     sudo /bin/systemctl start grafana-server
 
 #### 12. **Visualising Data on Grafana**
+
+Open your browser and go to the address `http://staff-pi-casa0014.local:3000`, where the middle bit is the Raspberry Pi address.
+
+In the middle of the dashboard you should see a prompt to `Add your first datasource` click on that and fill out the following details:
+
+-select InfluxDB
+-select Flux as the Query Language (needed for v2 of InfluxDB)
+-add `http://127.0.0.1:8086` at the URL
+-deselect `basic auth`
+-add org name and copy in your user API token from InfluxDB
+-add `mqtt-data` as the default bucket
