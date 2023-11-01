@@ -24,21 +24,21 @@
 
 ##### Add Feather Huzzah ESP8266 to the board manager of the [Arduino IDE](https://www.arduino.cc/en/software)
 
-  1. Open the Arduino IDE.
-  2. Go to "File" -> "Preferences".
-  3. Add the following URL to the "additional development board manager URLs": 
+  1.1. Open the Arduino IDE.
+  1.2. Go to "File" -> "Preferences".
+  1.3. Add the following URL to the "additional development board manager URLs": 
   `https://arduino.esp8266.com/stable/package_esp8266com_index.json`
-  4. After confirmation, go to "Tools" -> "Development Board" -> "Development Board Manager".
-  5. In the search box, enter `ESP8266`.
-  6. Install `esp8266 by ESP8266 Community`.
-  7. Select `Feather Huzzah ESP8266` board.
+  1.4. After confirmation, go to "Tools" -> "Development Board" -> "Development Board Manager".
+  1.5. In the search box, enter `ESP8266`.
+  1.6. Install `esp8266 by ESP8266 Community`.
+  1.7. Select `Feather Huzzah ESP8266` board.
 
 ##### Upload code to Feather Huzzah ESP8266
 
-  1. Connect the Feather Huzzah ESP8266 to your computer via USB.
-  2. Select the correct port and development board.
-  3. Open a sample code, such as "Blink".
-  4. Click "Upload" to upload the code to Feather Huzzah ESP8266.
+  1.8. Connect the Feather Huzzah ESP8266 to your computer via USB.
+  1.9. Select the correct port and development board.
+  1.10. Open a sample code, such as "Blink".
+  1.11. Click "Upload" to upload the code to Feather Huzzah ESP8266.
 
 Once you can get the blink example working, jump to the next step.
 <br>
@@ -118,20 +118,20 @@ Finally do a quick update / upgrade to make sure all files are upto date and the
 #### 9. **Installing InfluxDB on RPi**
 InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/#influxdb).We will use the Ubuntu & Debian (Arm 64-bit) option.
 <br><br>
-  1.Add the InfluxDB key to ensure secure download and the repository to the sources list so that we can download it in the next step.
+  9.1.Add the InfluxDB key to ensure secure download and the repository to the sources list so that we can download it in the next step.
   
     wget -q https://repos.influxdata.com/influxdata-archive_compat.key
     echo '393e8779c89ac8d958f81f942f9ad7fb82a25e133faddaf92e15b16e6ac9ce4c influxdata-archive_compat.key' | sha256sum -c && cat influxdata-archive_compat.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/influxdata-archive_compat.gpg > /dev/null
     echo 'deb [signed-by=/etc/apt/trusted.gpg.d/influxdata-archive_compat.gpg] https://repos.influxdata.com/debian stable main' | sudo tee /etc/apt/sources.list.d/influxdata.list
-  2.With the repository added we now run another update to the package list
+  9.2.With the repository added we now run another update to the package list
   
     sudo apt-get update
     
- 3.Finally we install InfluxDB
+  9.3.Finally we install InfluxDB
 
     sudo apt-get install influxdb2 -y
 
- 4.Finally to get InfluxDB up and running at reboot we need to enable and start it within systemctl
+  9.4.Finally to get InfluxDB up and running at reboot we need to enable and start it within systemctl
 
     sudo systemctl unmask influxdb.service
     sudo systemctl start influxdb
