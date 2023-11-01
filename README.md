@@ -144,5 +144,18 @@ InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/
 
   
 #### 10. **Installing Telegraf on RPi**
+  Telegraf is a time-series data collector.<br><br>
+  1.Get back to the terminal on the RPi and install telegraf using the following command:
+
+    sudo apt-get update && sudo apt-get install telegraf -y
+    
+  2.define some PATH variables:
+  
+    export INFLUX_HOST=http://10.129.101.214:8086
+    export INFLUX_ORG=casa0014 
+    
+>you will need to change your host IP address to the one assigned to your RPi - you can find out your IP address by typing ifconfig at the command line.
+
+
 #### 11. **Installing Grafana**
 #### 12. **Visualising Data on Grafana**
