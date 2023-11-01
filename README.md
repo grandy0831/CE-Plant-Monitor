@@ -155,7 +155,7 @@ InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/
     export INFLUX_ORG=casa0014 
     
 >you will need to change your host IP address to the one assigned to your RPi - you can find out your IP address by typing `ifconfig` at the command line.<br><br>
- 3.The third PATH variable you need to set is the `TOKEN` to get access to the `Bucket`.
+  3.The third PATH variable you need to set is the `TOKEN` to get access to the `Bucket`.
 
     export INFLUX_TOKEN=---you-will-have-your-own-token-here---
 
@@ -166,6 +166,30 @@ InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/
 >You can `COPT TO CLIPBOARD `from `3.Start Telegraf`.<br><br>
 
   ![截屏2023-11-01 00 14 51](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/56ed9711-096f-4351-a5c6-0bb685bd4c13)<br><br>
+
+  5.Open up the [file on sample v2 configuration file on GitHub](https://github.com/ucl-casa-ce/casa0014/blob/main/plantMonitor/pi%20config/etc/telegraf/telegrafv2.conf) since we will use this as the basis for setting up your configuration file.<br><br>
+
+  6.Modify the arrow section of the following image.<br><br>
+<img width="793" alt="7f13be0f583dcdad" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/23516b1b-628d-441a-a33f-c51c3564de51">
+<img width="800" alt="b4f2ccf0de206801" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2d7931ac-ad9c-4db1-a8ef-1c5753aa939c"><br><br>
+
+  7.Save the file and then we will copy it across to the RPi.
+  
+    sudo mv /etc/telegraf/telegraf.conf /etc/telegraf/telegraf-original.conf
+    sudo nano /etc/telegraf/telegraf.conf
+
+  8.Restart the influxdb service for the configurations to be set and check the status:
+
+    sudo systemctl stop influxdb
+    sudo systemctl start influxdb
+    sudo systemctl status influxdb
+    sudo systemctl start telegraf
+    sudo systemctl status telegraf
+
+  >If you have any problems running, remember `sudo systemctl stop influxdb` and `sudo systemctl stop telegraf` before start them.<br><br>
+
+  9.You should now be able to explore the data through the Data Explorer<br><br>
+<img width="1833" alt="da7a8ad62ca5a6ab" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/f8671fc3-cf03-4c22-8698-68de569c502f"><br><br>
 
 
 #### 11. **Installing Grafana**
