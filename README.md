@@ -234,6 +234,15 @@ Welcome to the Plant Pet Project! This is a combination of plant monitor feature
   LED light color change: Use different colors of LED lights to convey different emotional states. For example, green represents health, red represents the need for water, yellow represents happiness and so on. Write code to control the color change of the LED according to the preset state.<br><br>
 ***2.Display affective feedback***<br><br>
   Use a small display(`LCD` or `OLED`) that displays plant expressions or ICONS to convey different emotional states.Corresponding text descriptions or animations are displayed on the display to convey the emotional state of the plant. For example, `"I'm thirsty"` means water is needed, or an animation shows the state of the plant.<br><br>
+Other preparatory work：<br><br>
+- On the Feather Huzzah ESP8266:<br><br>
+  Prepare sensors and acquire data: First, connect plant monitoring sensors to the Feather Huzzah ESP8266. And then get plant status information from sensors, such as humidity, temperature, etc.<br><br>
+  Sending data using I2C: Configure the Feather Huzzah ESP8266 as the I2C master device using the Arduino IDE and Wire library to send plant status information.<br><br>
+
+- On the Arduino UNO:<br><br>
+  Prepare the LCD display: Connect the LCD display to the Arduino UNO and make sure you are able to control the LCD using the LiquidCrystal library through the Arduino IDE.<br><br>
+  I2C communication Settings: Configure the Arduino UNO as the I2C slave device. Receive data sent from Feather Huzzah ESP8266.<br><br>
+  Receive and display data: Write code to receive data from the Feather Huzzah ESP8266 on UNO and then display the corresponding plant status information on the LCD.<br><br>
 
 Here is a simple way to connect an LCD using an Arduino UNO:<br><br>
 ![20210520141046318](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/fd9e05a2-89f4-4ad0-a44a-ba420d245b29)<br><br>
@@ -243,8 +252,6 @@ A complete working example of the code  is [available here on GitHub](https://gi
 <img width="1320" alt="截屏2023-11-01 01 57 27" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/e9b544a2-3eb6-4d20-87cf-99dad26e6e55">
 <br><br>
 
-
-  
 - **Sound feedback** : Plant pets make sounds to express needs or emotions.
 - **Interactive** : Users can give water or care to plant pets with a button or touch sensor.
 - **Automatic watering system** : Water plants automatically according to soil moisture sensor data.
