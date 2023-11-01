@@ -212,9 +212,9 @@ Open your browser and go to the address `http://staff-pi-casa0014.local:3000`, w
 
 In the middle of the dashboard you should see a prompt to `Add your first datasource` click on that and fill out the following details:
 
--select InfluxDB
--select Flux as the Query Language (needed for v2 of InfluxDB)
--add `http://127.0.0.1:8086` at the URL
--deselect `basic auth`
--add org name and copy in your user API token from InfluxDB
--add `mqtt-data` as the default bucket
+- select InfluxDB
+- select Flux as the Query Language (needed for v2 of InfluxDB)
+- add `http://127.0.0.1:8086` at the URL
+- deselect `basic auth`
+- add org name and copy in your user API token from InfluxDB
+- add `mqtt-data` as the default bucket
