@@ -154,8 +154,16 @@ InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/
     export INFLUX_HOST=http://10.129.101.214:8086
     export INFLUX_ORG=casa0014 
     
->you will need to change your host IP address to the one assigned to your RPi - you can find out your IP address by typing ifconfig at the command line.
+>you will need to change your host IP address to the one assigned to your RPi - you can find out your IP address by typing `ifconfig` at the command line.<br><br>
+ 3.The third PATH variable you need to set is the `TOKEN` to get access to the `Bucket`.
 
+    export INFLUX_TOKEN=---you-will-have-your-own-token-here---
+
+  4.Finally you need to run telegraf and pass in the configuration file it needs to use - again we need to edit the command to replace the hostname with the IP address. 
+
+    telegraf --config http://10.129.101.214:8086/api/v2/telegrafs/0a2093eea36cb000
+
+>You can `COPT TO CLIPBOARD `from `3.Start Telegraf`.
 
 #### 11. **Installing Grafana**
 #### 12. **Visualising Data on Grafana**
