@@ -239,6 +239,8 @@ Here is a simple way to connect an LCD using an Arduino UNO:<br><br>
 ![20210520141046318](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/fd9e05a2-89f4-4ad0-a44a-ba420d245b29)<br><br>
 The diagram above shows the circuit diagram of a 16x2 LCD connected to the ARDUINO UNO.<br><br>
 A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/LCD).
+![IMG_3056](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/ac6d12f9-6707-4ddf-8807-082b420a7e4d)
+![IMG_3057](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/8552b1f5-8068-4e95-8bbe-0d2f42e3d06e)
 
 
   
