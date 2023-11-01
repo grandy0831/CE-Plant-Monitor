@@ -103,7 +103,16 @@ In this step, we configured the Raspberry PI as a data gateway to collect and pr
 <img width="792" alt="7195b6768554ba3c" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/9222f89c-151b-49be-bb6f-61326d923331"><br><br>
 On your Mac / PC open up a Terminal / Putty session and log into the device using SSH.
 
-    ssh pi@staff-pi-casa0014.local
+    ssh USERNAME@YOURHOSTNAME.local
+
+To check the OS of the device enter the following:
+
+    cat /etc/os-release
+Finally do a quick update / upgrade to make sure all files are upto date and then reboot before moving on to installing the datastore.
+
+    sudo apt update
+    sudo apt upgrade -y
+    sudo reboot
 
 #### 9. **Installing InfluxDB on RPi**
 #### 10. **Installing Telegraf on RPi**
