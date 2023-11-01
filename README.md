@@ -138,7 +138,7 @@ InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/
     sudo systemctl enable influxdb.service
     sudo systemctl status influxdb
 
-  Use 'CTRL C' to break out of the systemctl command and get back to the terminal prompt.
+  Use `CTRL C` to break out of the systemctl command and get back to the terminal prompt.<br><br>
 #### 10. **Installing Telegraf on RPi**
 #### 11. **Installing Grafana**
 #### 12. **Visualising Data on Grafana**
