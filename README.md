@@ -229,10 +229,10 @@ Welcome to the Plant Pet Project! This is a combination of plant monitor feature
 >‼️Important note: this is an unfinished concept project, I will try my best to complete this project, only part of the code can run at present, I am trying to implement the project.<br>
 
 ## Functions and features(Prediction)
-- ** Emotional feedback ** : LED lights or displays show the emotional state of the plant.
-- ** Sound feedback ** : Plant pets make sounds to express needs or emotions.
-- ** Interactive ** : Users can give water or care to plant pets with a button or touch sensor.
-- ** Automatic watering system ** : Water plants automatically according to soil moisture sensor data.
-- ** Data visualization ** : Displays plant health, humidity, light and other data.
-- ** Voice interaction ** : Users can have voice interaction with plant pets and get relevant information.
-- ** Remote Control ** : Users can monitor and interact with plant pets remotely, no matter where they are.
+- **Emotional feedback** : LED lights or displays show the emotional state of the plant.
+- **Sound feedback** : Plant pets make sounds to express needs or emotions.
+- **Interactive** : Users can give water or care to plant pets with a button or touch sensor.
+- **Automatic watering system** : Water plants automatically according to soil moisture sensor data.
+- **Data visualization** : Displays plant health, humidity, light and other data.
+- **Voice interaction** : Users can have voice interaction with plant pets and get relevant information.
+- **Remote Control** : Users can monitor and interact with plant pets remotely, no matter where they are.
