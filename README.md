@@ -255,8 +255,15 @@ A complete working example of the code  is [available here on GitHub](https://gi
 - **Sound feedback** : Plant pets make sounds to express needs or emotions.<br><br>
 Increase the interactivity and fun of plant pets while helping users better understand the state and needs of plants<br><br>
 >Use a buzzer or speaker<br><br>
+
 - **Interactive** : Users can give water or care to plant pets with a button or touch sensor.<br><br>
+By adding interactivity, users will be able to interact more directly with plant pets, which will improve the user experience and make users more willing to care about the health of the plant<br><br>
+>knob control, touch sensor or distance sensor.<br><br>
+
 - **Automatic watering system** : Water plants automatically according to soil moisture sensor data.<br><br>
+>Exploring<br><br>
+
 - **Data visualization** : Displays plant health, humidity, light and other data.<br><br>
-- **Voice interaction** : Users can have voice interaction with plant pets and get relevant information.<br><br>
+>Grafana, Web, Mobile APP, LED, Displays.<br><br>
+
 - **Remote Control** : Users can monitor and interact with plant pets remotely, no matter where they are.<br><br>
