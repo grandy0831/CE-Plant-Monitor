@@ -113,8 +113,11 @@ Finally do a quick update / upgrade to make sure all files are upto date and the
     sudo apt update
     sudo apt upgrade -y
     sudo reboot
+<br><br>
 
 #### 9. **Installing InfluxDB on RPi**
+InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/#influxdb).
+
 #### 10. **Installing Telegraf on RPi**
 #### 11. **Installing Grafana**
 #### 12. **Visualising Data on Grafana**
