@@ -229,9 +229,11 @@ Welcome to the Plant Pet Project! This is a combination of plant monitor feature
 >‼️Important note: this is an unfinished concept project, I will try my best to complete this project, only part of the code can run at present, I am trying to implement the project.<br>
 
 ## Functions and features(Prediction)
-- **Emotional feedback** : LED lights or displays show the emotional state of the plant.
-***1.LED light emotional feedback***
-  LED light color change: Use different colors of LED lights to convey different emotional states. For example, green represents health, red represents the need for water, yellow represents happiness and so on.
+- **Emotional feedback** : LED lights or displays show the emotional state of the plant.<br><br>
+***1.LED light emotional feedback***<br><br>
+  LED light color change: Use different colors of LED lights to convey different emotional states. For example, green represents health, red represents the need for water, yellow represents happiness and so on. Write code to control the color change of the LED according to the preset state.<br><br>
+***2.Display affective feedback***<br><br>
+  Use a small display(`LCD` or `OLED`) that displays plant expressions or ICONS to convey different emotional states.Corresponding text descriptions or animations are displayed on the display to convey the emotional state of the plant. For example, "I'm thirsty" means water is needed, or an animation shows the state of the plant.
 
   
 - **Sound feedback** : Plant pets make sounds to express needs or emotions.
