@@ -218,3 +218,6 @@ In the middle of the dashboard you should see a prompt to `Add your first dataso
 - deselect `basic auth`
 - add org name and copy in your user API token from InfluxDB
 - add `mqtt-data` as the default bucket
+<br><br>
+<img width="1300" alt="截屏2023-10-31 17 03 10" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2799de3d-6708-4f3d-83a8-0f1254bcc459"><br><br>
+Your data is displayed on Grafana.
