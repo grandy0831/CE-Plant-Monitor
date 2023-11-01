@@ -171,8 +171,9 @@ InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/
   5.Open up the [file on sample v2 configuration file on GitHub](https://github.com/ucl-casa-ce/casa0014/blob/main/plantMonitor/pi%20config/etc/telegraf/telegrafv2.conf) since we will use this as the basis for setting up your configuration file.<br><br>
 
   6.Modify the arrow section of the following image.<br><br>
-<img width="793" alt="7f13be0f583dcdad" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/23516b1b-628d-441a-a33f-c51c3564de51">
-<img width="800" alt="b4f2ccf0de206801" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2d7931ac-ad9c-4db1-a8ef-1c5753aa939c"><br><br>
+<img width="793" alt="7f13be0f583dcdad" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/23516b1b-628d-441a-a33f-c51c3564de51"><img width="800" alt="b4f2ccf0de206801" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/0464e6ca-9188-4126-a1b0-c8d11bc1c439">
+
+<br><br>
 
   7.Save the file and then we will copy it across to the RPi.
   
