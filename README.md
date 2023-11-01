@@ -221,7 +221,7 @@ In the middle of the dashboard you should see a prompt to `Add your first dataso
 - add org name and copy in your user API token from InfluxDB
 - add `mqtt-data` as the default bucket
 <br><br>
-<img width="1300" alt="截屏2023-10-31 17 03 10" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2799de3d-6708-4f3d-83a8-0f1254bcc459"><br><br>
+<img width="1300" alt="截屏2023-10-31 17 03 10" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2799de3d-6708-4f3d-83a8-0f1254bcc459"><img width="1300" alt="截屏2023-11-01 10 19 08" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2082976c-b89b-4bda-933d-c613528d8789"><br><br>
 Your data is displayed on Grafana.
 ---
 >Now let's branch out and do some fun ideas, like create a plant pet based on our plant monitor.
@@ -250,7 +250,7 @@ Here is a simple way to connect an LCD using an Arduino UNO:<br><br>
 The diagram above shows the circuit diagram of a 16x2 LCD connected to the ARDUINO UNO.<br><br>
 A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/LCD).<br><br>
 <img width="1321" alt="截屏2023-11-01 01 57 14" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2572e4a8-2c50-47dd-9edd-e85469256f14"><br><br>
-<img width="1320" alt="截屏2023-11-01 01 57 27" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/e9b544a2-3eb6-4d20-87cf-99dad26e6e55"><img width="1300" alt="截屏2023-11-01 10 19 08" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2082976c-b89b-4bda-933d-c613528d8789">
+<img width="1320" alt="截屏2023-11-01 01 57 27" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/e9b544a2-3eb6-4d20-87cf-99dad26e6e55">
 
 <br><br>
 
