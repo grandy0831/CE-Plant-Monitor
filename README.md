@@ -139,6 +139,10 @@ InfluxDB downloads are [available here](https://portal.influxdata.com/downloads/
     sudo systemctl status influxdb
 
   Use `CTRL C` to break out of the systemctl command and get back to the terminal prompt.<br><br>
+  ![截屏2023-11-01 00 14 51](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/27f9b257-ec90-4e07-9f2d-b7aa206c6987)
+<br><br>
+
+  
 #### 10. **Installing Telegraf on RPi**
 #### 11. **Installing Grafana**
 #### 12. **Visualising Data on Grafana**
