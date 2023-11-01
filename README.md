@@ -1,15 +1,15 @@
 # 🌳 Plant-Monitor
-
+---
 ## Overview
 >The project is a plant monitor designed to monitor the plant's environment such as soil moisture of plants, while using Feather Huzzah ESP8266 Wi-Fi connection and MQTT server to publish sensor data, and using RPi gateway to store and visualize time series data.
-
+---
 ## Function
 - Real-time monitoring of plant temperature and humidity and moisture.
 - Collect data through sensors and send it to a cloud database.
 - Data can be transmitted through MQTT protocol.
 - Stores data on the RPi gateway.
 - Visualize time series data.
-
+---
 ## Installation
 ### Materials required
 - [Arduino IDE](https://www.arduino.cc/en/software)
@@ -17,9 +17,9 @@
 - DHT22
 - [Raspberry Pi](https://www.raspberrypi.com/software/)
 - [MQTT Explorer](https://mqtt-explorer.com/)
-
+---
 ### Setup Steps
-
+---
 #### 1. **Feather Set-up**
 
 ##### Add Feather Huzzah ESP8266 to the board manager of the [Arduino IDE](https://www.arduino.cc/en/software)
@@ -43,13 +43,14 @@
 Once you can get the blink example working, jump to the next step.
 <br>
 <br>
+---
 #### 2. **Connecting to Wifi**
 
   The Feather Huzzah ESP8266 is equipped with Wi-Fi capabilities. <br>
   A complete working example of the code is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/blob/main/Connecting_to_Wifi).
 <br>
 <br>
-
+---
 #### 3. **Getting the time**
 
   In this step, you will learn to get time from the Internet, which is very important for subsequent data acquisition and recording.<br>
@@ -57,7 +58,7 @@ Once you can get the blink example working, jump to the next step.
   <img width="890" alt="Getting_the_time_monitor_output" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/9de2e704-bc97-4302-9831-8ab660412a97">
 <br>
 <br> 
-
+---
 #### 4. **Publish data to an MQTT server**
 
   We will be sending data to a MQTT server.<br> 
