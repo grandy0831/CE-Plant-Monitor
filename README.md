@@ -230,6 +230,10 @@ Welcome to the Plant Pet Project! This is a combination of plant monitor feature
 
 ## Functions and features(Prediction)
 - **Emotional feedback** : LED lights or displays show the emotional state of the plant.
+***1.LED light emotional feedback***
+  LED light color change: Use different colors of LED lights to convey different emotional states. For example, green represents health, red represents the need for water, yellow represents happiness and so on.
+
+  
 - **Sound feedback** : Plant pets make sounds to express needs or emotions.
 - **Interactive** : Users can give water or care to plant pets with a button or touch sensor.
 - **Automatic watering system** : Water plants automatically according to soil moisture sensor data.
