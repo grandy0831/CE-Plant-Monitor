@@ -222,8 +222,10 @@ In the middle of the dashboard you should see a prompt to `Add your first dataso
 - add org name and copy in your user API token from InfluxDB
 - add `mqtt-data` as the default bucket
 <br><br>
-<img width="1300" alt="截屏2023-10-31 17 03 10" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2799de3d-6708-4f3d-83a8-0f1254bcc459"><img width="1300" alt="截屏2023-11-01 10 19 08" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/2082976c-b89b-4bda-933d-c613528d8789"><br><br>
-Your data is displayed on Grafana.
+<img width="1646" alt="截屏2023-11-10 19 14 21" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/6daa900f-5178-458f-ae2d-1cc51ba85fe2">
+<br><br>
+Your data is displayed on Grafana(The above shows the storage data for two days).
+<br><br>
 ---
 >Now let's branch out and do some fun ideas, like create a plant pet based on our plant monitor.
 # Plantpets 🌱🐾
