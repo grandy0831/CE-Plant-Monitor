@@ -328,7 +328,7 @@ Adding Arduino i2C communication to our code <br><br>
 Arduino I2C host code<br><br>
 A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/SLAVE_CODE).<br><br>
 Arduino I2C slave code<br><br>
-A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/Plant_Monitor).<br><br>
+A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/Plant_Monitor_HOST_CODE).<br><br>
 
 
 
