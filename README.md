@@ -331,11 +331,11 @@ A complete working example of the code  is [available here on GitHub](https://gi
 Arduino I2C slave code<br><br>
 A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/SLAVE_CODE).<br><br>
 
-In this way, we can send the plant data to the LCD display screen!
+In this way, we can send the plant data to the LCD display screen!<br>
 ![image](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/76b50a37-1424-4497-9780-82b60393085e)<br><br>
-When the humidity is less than 180, let the LCD display "I'm thirsty :(" to remind us to water the plantpet.
+When the humidity is less than 180, let the LCD display "I'm thirsty :(" to remind us to water the plantpet.<br>
 ![image](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/f34fcff7-8e6c-4443-8ee5-0b823518ce31)<br><br>
-When the humidity is greater than 180, let the LCD display "HAPPY :)" and let the plantpet tell us that it is happy.
+When the humidity is greater than 180, let the LCD display "HAPPY :)" and let the plantpet tell us that it is happy.<br>
 ![image](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/7a4aa91e-8cf9-432f-b896-eacd706d21eb)<br>
 ![image](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/90932057-09eb-49fd-b8fc-40120aae155f)<br>
 
