@@ -257,6 +257,19 @@ A complete working example of the code  is [available here on GitHub](https://gi
 <img width="1320" alt="截屏2023-11-01 01 57 27" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/e9b544a2-3eb6-4d20-87cf-99dad26e6e55">
 
 <br><br>
+- arduino——I2C communication:<br><br>
+<strong>Arduino I2C communication pins</strong>
+
+
+
+
+
+
+
+
+
+
+
 
 - **Sound feedback** : Plant pets make sounds to express needs or emotions.<br><br>
 Increase the interactivity and fun of plant pets while helping users better understand the state and needs of plants<br><br>
