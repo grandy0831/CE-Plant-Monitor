@@ -340,7 +340,8 @@ When the humidity is greater than 180, let the LCD display "HAPPY :)" and let th
 ![image](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/90932057-09eb-49fd-b8fc-40120aae155f)<br>
 
 - Power supply method:<br><br>
-
+I tried to use a 10,000 mAh power bank to power Feather Huzzah ESP8266 and Arduino UNO at the same time. I connected the power supply at 10:30 am on November 1st. According to the data in the database, after 1:30pm on November 3rd No data is received, indicating that the power bank is exhausted. During this period, the power bank continued to provide power for a total of 51 hours.<br><br>
+<img width="1728" alt="截屏2023-11-08 14 30 42" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/de9d889a-1be2-4543-8e38-856b5749500c">
 
 
 >The above are the functions of plant pets that have been implemented. None of the functions mentioned below have been implemented. Currently, they are only showing related concepts, but please don’t worry, I will keep updating this readme to improve the plantpet.
