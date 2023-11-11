@@ -227,6 +227,7 @@ In the middle of the dashboard you should see a prompt to `Add your first dataso
 Your data is displayed on Grafana(The above shows the storage data for two days).
 <br><br>
 <hr>
+
 >Now let's branch out and do some fun ideas, like create a plant pet based on our plant monitor.
 # Plantpets 🌱🐾
 Welcome to the Plant Pet Project! This is a combination of plant monitor features to create a prototype of a fun plant pet. The project allows you to interact with your plants, monitor their status and provide care.
