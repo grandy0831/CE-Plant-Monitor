@@ -341,6 +341,7 @@ When the humidity is greater than 180, let the LCD display "HAPPY :)" and let th
 
 
 
+>The above are the implemented functions of plantpet. The functions mentioned below are all implemented. Currently, they are only showing related concepts, but please don’t worry, I will keep updating this readme to improve the plantpet.
 
 - **Sound feedback** : Plant pets make sounds to express needs or emotions.<br><br>
 Increase the interactivity and fun of plant pets while helping users better understand the state and needs of plants<br><br>
