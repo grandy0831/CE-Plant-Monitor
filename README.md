@@ -257,9 +257,11 @@ A complete working example of the code  is [available here on GitHub](https://gi
 <img width="1320" alt="截屏2023-11-01 01 57 27" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/e9b544a2-3eb6-4d20-87cf-99dad26e6e55">
 
 <br><br>
-- arduino——I2C communication:<br><br>
-<strong>Arduino I2C communication pins</strong>
-
+- <strong>Arduino——I2C communication:</strong><br><br>
+<strong>Arduino I2C communication pins</strong><br><br>
+For I2C communication, different boards for Arduino have different pins dedicated to the SDA and SCL pins<br><br>
+1. In Arduino UNO, pin A4 = SDA, pin A5 = SCL.<br><br>
+2. In Feather Huzzah ESP8266, pin SDA/4 = SDA, pin SCL/5 = SCL.<br><br>
 
 
 
