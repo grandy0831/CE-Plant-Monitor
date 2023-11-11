@@ -339,9 +339,11 @@ When the humidity is greater than 180, let the LCD display "HAPPY :)" and let th
 ![image](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/7a4aa91e-8cf9-432f-b896-eacd706d21eb)<br>
 ![image](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/90932057-09eb-49fd-b8fc-40120aae155f)<br>
 
+- Power supply method:<br><br>
 
 
->The above are the implemented functions of plantpet. The functions mentioned below are all implemented. Currently, they are only showing related concepts, but please don’t worry, I will keep updating this readme to improve the plantpet.
+
+>The above are the functions of plant pets that have been implemented. None of the functions mentioned below have been implemented. Currently, they are only showing related concepts, but please don’t worry, I will keep updating this readme to improve the plantpet.
 
 - **Sound feedback** : Plant pets make sounds to express needs or emotions.<br><br>
 Increase the interactivity and fun of plant pets while helping users better understand the state and needs of plants<br><br>
