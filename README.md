@@ -351,12 +351,14 @@ With favorability introduced, the interaction between us and the plant is no lon
 
 ## Favorability Display
 
-To provide an intuitive understanding of the plant's emotional state, we display favorability in real-time on an LCD screen. From "happy :)" to "sad :(" and even to "excited ：）," we can better understand the plant's current feelings based on the displayed expressions and status information.
+To provide an intuitive understanding of the plant's emotional state, we display favorability in real-time on an LCD screen. From "happy :)" to "sad :(" and even to "excited ：）," we can better understand the plant's current feelings based on the displayed expressions and status information.<br>
 
----
+![WechatIMG239](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/1524d916-4f52-4d08-addf-6a7968094427)
+
+A complete working example of the code  is [available here on GitHub](https://github.com/grandy0831/CE-Plant-Monitor/tree/main/Moisture_sensing).
 
 **Note:** Ensure to interact with the plant according to the favorability information displayed on the LCD screen to maintain the plant's well-being and emotional state.
-
+---
 
 
 - Power supply method:<br><br>
