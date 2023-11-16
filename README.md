@@ -339,6 +339,26 @@ When the humidity is greater than 180, let the LCD display "HAPPY :)" and let th
 ![image](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/7a4aa91e-8cf9-432f-b896-eacd706d21eb)<br><br>
 ![image](https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/90932057-09eb-49fd-b8fc-40120aae155f)<br>
 
+>In the "Plantpets" project, we introduced an innovative element—Favorability. The concept was conceived to establish a deeper and more interactive relationship between plants and users. Inspired by the classic interaction mechanism of electronic pets, we aim to focus more on caring for our plants through the introduction of favorability.
+
+## Definition of Favorability
+
+Favorability is a quantifiable metric that reflects the plant's perception of your care. Through sensors, we capture the plant's status (moisture) and translate it into a numerical value for favorability. Changes in favorability are directly related to the plant's emotional state. Increasing favorability indicates the plant's happiness, while a decrease may signal the plant's discomfort.
+
+## Interaction Mechanism
+
+With favorability introduced, the interaction between us and the plant is no longer one-sided. By interacting with the plant, especially by promptly meeting the plant's needs (such as watering), you can increase the plant's favorability. This process is not just about caring for the plant but also serves as a medium to establish emotional connections between you and the plant.
+
+## Favorability Display
+
+To provide an intuitive understanding of the plant's emotional state, we display favorability in real-time on an LCD screen. From "happy :)" to "sad :(" and even to "excited ：）," we can better understand the plant's current feelings based on the displayed expressions and status information.
+
+---
+
+**Note:** Ensure to interact with the plant according to the favorability information displayed on the LCD screen to maintain the plant's well-being and emotional state.
+
+
+
 - Power supply method:<br><br>
 I tried to use a 10,000 mAh power bank to power Feather Huzzah ESP8266 and Arduino UNO at the same time. I connected the power supply at 10:30 am on November 1st. According to the data in the database, after 1:30pm on November 3rd No data is received, indicating that the power bank is exhausted. During this period, the power bank continued to provide power for a total of 51 hours.<br><br>
 <img width="1728" alt="截屏2023-11-08 14 30 42" src="https://github.com/grandy0831/CE-Plant-Monitor/assets/140076679/de9d889a-1be2-4543-8e38-856b5749500c"><br><br>
